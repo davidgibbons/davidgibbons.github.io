@@ -27,6 +27,9 @@ author :
 #
 production_url : http://dgibbons.net
 
+# The number of posts per page
+paginate: 3
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
