@@ -4,7 +4,7 @@ category : devops
 tagline: "Swarm+Docker-machine+AWS in a few commands"
 tags : [ devops, docker, aws ]
 ---
-
+{% include JB/setup %}
 
 ## set some shell variables
 ```bash
