@@ -6,7 +6,11 @@ tags : [ blink1, skype, powershell ]
 ---
 {% include JB/setup %}
 
-## I recently got a [Blink(1) LED from ThingM] (http://amzn.to/1nQz1HG) and wanted to to see if i could use it to notify those around me to my status of a call on skype.
+## Ever have someone come by and start a conversation while you're on a phonecall?
+
+I recently got a [Blink(1) LED from ThingM] (http://amzn.to/1nQz1HG) and wanted to to see if i could use it to notify those around me to my status of a call on skype.
+
+## How I implemented it
 
 First I strugged with getting access to the skype objects that everyone was referencing on the internet, it turns out they're only available within in the 32bit version of powershell. 
 
@@ -37,6 +41,7 @@ I then saved this someplace easy to access and wrote a small batchfile to call i
     
     Powershell.exe -File "C:\Users\dgibbons\Downloads\skype.ps1" -executionpolicy bypass
 
+## Results 
 
 What this does is sit in the background and every 15 seconds, checks the status of $skype.ActiveCalls, if it's not empty, it sets the blink1 LED red, otherwise it sets it green. 
 This just can live and run in the background and keeps my skype status visible to my officemates around me. I checked the performance from the Task Manager and while it does put a tiny bit of load
