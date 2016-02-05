@@ -8,7 +8,7 @@ tags : [ blink1, skype, powershell ]
 
 ## Ever have someone come by and start a conversation while you're on a phonecall?
 
-I recently got a [Blink(1) LED from ThingM] (http://amzn.to/1nQz1HG) and wanted to to see if i could use it to notify those around me to my status of a call on skype.
+I recently got a [Blink(1) LED from ThingM](http://amzn.to/1nQz1HG) and wanted to to see if I could use it to notify those around me to my status of a call on skype.
 
 ## How I implemented it
 
