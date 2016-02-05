@@ -1,6 +1,6 @@
 ---
 layout: post
-category : automation
+category : code
 tagline: "How to use a blink1 LED to show call status of skype on Windows"
 tags : [ blink1, skype, powershell ]
 ---
